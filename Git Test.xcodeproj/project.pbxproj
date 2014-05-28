@@ -21,6 +21,7 @@
 		6CE748A21935DBE900451DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE748841935DBE900451DA8 /* UIKit.framework */; };
 		6CE748AA1935DBE900451DA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CE748A81935DBE900451DA8 /* InfoPlist.strings */; };
 		6CE748AC1935DBE900451DA8 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE748AB1935DBE900451DA8 /* Git_TestTests.m */; };
+		6CE748B71935E1DB00451DA8 /* QuanLiTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE748B61935E1DB00451DA8 /* QuanLiTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6CE748A71935DBE900451DA8 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		6CE748A91935DBE900451DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CE748AB1935DBE900451DA8 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		6CE748B51935E1DB00451DA8 /* QuanLiTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuanLiTest.h; sourceTree = "<group>"; };
+		6CE748B61935E1DB00451DA8 /* QuanLiTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuanLiTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				6CE748921935DBE900451DA8 /* Main.storyboard */,
 				6CE748951935DBE900451DA8 /* QuanLiViewController.h */,
 				6CE748961935DBE900451DA8 /* QuanLiViewController.m */,
+				6CE748B51935E1DB00451DA8 /* QuanLiTest.h */,
+				6CE748B61935E1DB00451DA8 /* QuanLiTest.m */,
 				6CE748981935DBE900451DA8 /* Images.xcassets */,
 				6CE748871935DBE900451DA8 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CE748971935DBE900451DA8 /* QuanLiViewController.m in Sources */,
+				6CE748B71935E1DB00451DA8 /* QuanLiTest.m in Sources */,
 				6CE748911935DBE900451DA8 /* QuanLiAppDelegate.m in Sources */,
 				6CE7488D1935DBE900451DA8 /* main.m in Sources */,
 			);
